@@ -1,0 +1,28 @@
+.bag{
+    background: #fff;
+    box-shadow: 0 0 1px #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    transition: 0.5s;
+    z-index: 9999;
+}
+.bag-show{
+    transform: translateX(0);
+}
+@media only screen and (max-width: 1200px){
+    .bag{
+        width: 50%!important;
+    }
+}
+@media only screen and (max-width: 780px){
+    .bag{
+        width: 60%!important;
+    }
+}
+@media only screen and (max-width: 570px){
+    .bag{
+        width: 100%!important;
+    }
+}
